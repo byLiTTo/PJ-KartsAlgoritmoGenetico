@@ -20,3 +20,8 @@ A continuación, expondremos las diferentes escenas que forman el juego, explica
 
 ### Menú principal
 La primera ventana que nos encontramos al iniciar el juego es el común menú principal.
+
+**1.-PLAY:** Carga la escena de selección de dificultad.     
+**2.-CONTROLS:** Activa la ventana que explica cómo son los controles del juego.     
+**3.-SETTINGS:** Activa la ventana de configuración con todos los ajustes del juego.     
+**4.-CLOSE:** Cierra y finaliza el juego.     
