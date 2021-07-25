@@ -98,8 +98,10 @@ La primera ventana que nos encontramos al iniciar el juego es el común menú pr
 
 **1.-RANKING:** Top 10 de jugadores y sus tiempos realizados. Por defecto 0:00:00. **2.-BACK:** Carga la escena del menú principal. 
 
-3. Funcionalidades del juego ![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.015.png)
-1. Red Neuronal (NNet) 
+___
+
+## 3. Funcionalidades del juego
+### 1. Red Neuronal (NNet) 
 
 El objeto NNet se encarga de almacenar una red neuronal. Esta red, se encargará de controlar al agente. Su objetivo será aprender a conducir por un circuito. Las principales variables que tiene la red son: 
 
@@ -112,7 +114,7 @@ El objeto NNet se encarga de almacenar una red neuronal. Esta red, se encargará
 
 La red cuenta con la función RunNetwork, que a través de una entrada por parámetro (el valor de la inputLayer) devolverá una lista de valores normalizados entre -1 y 1. En nuestro juego, la inputLayer es un conjunto de nueve sensores que determinan la proximidad del agente a los límites de la carretera. La outputLayer devuelve dos valores, una para determinar la velocidad y otro para terminar la cantidad de giro a izquierda o derecha. 
 
-2. Algoritmo genético (GeneticManager) 
+### 2. Algoritmo genético (GeneticManager) 
 
 Clase encargada de gestionar el aprendizaje de las redes neuronales. Para ello entrenará de forma continuada a una población de agentes (redes neuronales) hasta conseguir el objetivo deseado. Para ese cometido, una vez completada una generación se cruzará a los mejores agentes para obtener hijos que combinen las características de ambos. De no especificar un número de cruces igual al número de la población inicial, se crearán hijos con valores aleatorios para añadir diversidad de genes. Al final de cada generación se guarda el agente con el mejor resultado para su posterior uso. Las principales variables de la clase son: 
 
@@ -128,7 +130,7 @@ Clase encargada de gestionar el aprendizaje de las redes neuronales. Para ello e
 - **Genepool:** Lista de mejores y peores agentes de los cuales a partir de ellos será creada la nueva población.** 
 - **Current Generation:** Variable de control que estipula el número de generación en la que nos encontramos.** 
 - **Current  genoma:**  Variable  de  control  que  estipula  el  número  de  genoma  que  nos encontramos en el momento actual.** 
-3. Control de la carrera 
+### 3. Control de la carrera 
 
 Como se trata de un conjunto de clases, donde algunas de ellas venían programadas en tutoriales de  Unity  y  no  hemos  aprovechado  todo  su  potencial  de  código,  vamos  a  comentar  las funcionalidades que hemos usado o que hemos modificado a nuestro favor, para hacer funcionar el juego de manera correcta. 
 
@@ -138,7 +140,7 @@ Tras atravesar la línea de meta por primera vez se activa los contadores de tie
 
 Por último, la funcionalidad más importante es la que detecta quién ha ganado la carrera. Si el agente termina antes las vueltas, se lanza la escena de derrota, por el contrario, si gana el jugador, se guardan los tiempos en el ranking y se carga la escena de victoria. 
 
-4. Diseño de los mapas ![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.016.png)
+## 4. Diseño de los mapas ![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.016.png)
 
 Para la creación de los circuitos hemos tomado assets gratuitos de la tienda oficial de Unity. Los principales elementos: 
 
@@ -180,7 +182,7 @@ Loopingtrack  ![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.033.png)![](
 
 Ovaltrack 
 
-5. Bibliografía ![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.036.png)
+## 5. Bibliografía ![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.036.png)
 
 Self Driving Car in Unity [Part 1/3]:   [https://cutt.ly/smuE62f ](https://cutt.ly/smuE62f)Self Driving Car in Unity [Part 2/3]:   [https://cutt.ly/gmuRakM ](https://cutt.ly/gmuRakM)Self Driving Car in Unity [Part 3/3]:   [https://cutt.ly/mmuRjlc ](https://cutt.ly/mmuRjlc)Cómo hacer un juego de carrearas:   [https://cutt.ly/7muRQR7 ](https://cutt.ly/7muRQR7)Assets Karting Microgame:   [https://cutt.ly/pmuRSGW ](https://cutt.ly/pmuRSGW)Unity Karting Microgame tutorial:  [https://cutt.ly/zmuRM3o ](https://cutt.ly/zmuRM3o)Red neuronal aprende a manejar con IA:  [https://cutt.ly/FmuTqLq ](https://cutt.ly/FmuTqLq)Redes neuronales y algoritmos genéticos:   [https://cutt.ly/nmuTf9T ](https://cutt.ly/nmuTf9T)
 
