@@ -44,43 +44,41 @@ La primera ventana que nos encontramos al iniciar el juego es el común menú pr
 **5.-Close SETTINGS:** Cierra la ventana de settings y vuelve al menú principal.     
 **6.-CLOSE:** Cierra y finaliza el juego.     
 
-2. Selección de dificultad 
+### Selección de dificultad 
 
-![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.008.jpeg)
+**1.-NAME:** Campo de texto donde se introduce el nombre que aparecerá en el ranking.     
+**2.-100CC:** Dificultad baja del juego. Carga la escena de selección de circuitos 100cc.     
+**3.-150CC:** Dificultad alta del juego. Carga la escena de selección de circuitos 150cc.     
+**4.-BACK:** Vuelve a cargar la escena del menú principal.     
 
-**1.-NAME:** Campo de texto donde se introduce el nombre que aparecerá en el ranking. **2.-100CC:** Dificultad baja del juego. Carga la escena de selección de circuitos 100cc. **3.-150CC:** Dificultad alta del juego. Carga la escena de selección de circuitos 150cc. **4.-BACK:** Vuelve a cargar la escena del menú principal. 
+### Selección de circuito 
 
-3. Selección de circuito 
+**1.-COUNTRY:** Carga la escena del mapa llamado country.     
+**2.-OVAL:** Carga la escena del mapa llamado oval.     
+**3.-LOOPING:** Carga la escena del mapa llamado looping.     
+**4.-LONG:** Carga la escena del mapa llamado long.     
+**5.-MOUNTAIN:** Carga la escena del mapa llamado mountain.     
+**6.-BACK:** Vuelve a cargar la escena de menú principal.     
 
-![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.009.jpeg)
+### Carrera 
 
-**1.-COUNTRY:** Carga la escena del mapa llamado country. **2.-OVAL:** Carga la escena del mapa llamado oval. **3.-LOOPING:** Carga la escena del mapa llamado looping. **4.-LONG:** Carga la escena del mapa llamado long. **5.-MOUNTAIN:** Carga la escena del mapa llamado mountain. **6.-BACK:** Vuelve a cargar la escena de menú principal. 
+**1.-TAB:** Tecla que activa la ventana de pause del circuito.     
+**2.-LAPS:** Indicador de las vueltas realizadas hasta el momento y las totales.     
+**3.-MENSAJES:** Rápidas indicaciones como que se comienza la última vuelta, etc.     
+**4.-CURRENT:** Tiempo que se está haciendo en la vuelta actual.     
+**5.-BEST LAP:** Mejor tiempo realizado en todas las vueltas hasta el momento.     
+**6.-LAP x:** Tiempo realizado en la vuelta con dicho número. Vueltas anteriores.     
 
-4. Carrera 
+#### Ventana pause
 
-![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.010.jpeg)
+**1.-SHADOWS:** Activa las nombras de los elementos del circuito.     
+**2.-FRAMERATE COUNTER:** Activa el contador de FPS por pantalla. Esquina superior derecha.     
+**3.-CONTROLS:** Activa la ventana de controls.     
+**4.-DONE:** Cierra la ventana del menú pause.     
+**5.-EXIT:** Carga la escena de selección de dificultad.     
 
-**1.-TAB:** Tecla que activa la ventana de pause del circuito. 
+### Partida perdida
 
-**2.-LAPS:** Indicador de las vueltas realizadas hasta el momento y las totales. **3.-MENSAJES:** Rápidas indicaciones como que se comienza la última vuelta, etc. **4.-CURRENT:** Tiempo que se está haciendo en la vuelta actual. 
-
-**5.-BEST LAP:** Mejor tiempo realizado en todas las vueltas hasta el momento. **6.-LAP x:** Tiempo realizado en la vuelta con dicho número. Vueltas anteriores. 
-
-**2.4.2 Ventana pause** 
-
-![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.011.jpeg)
-
-**1.-SHADOWS:** Activa las nombras de los elementos del circuito. 
-
-**2.-FRAMERATE COUNTER:** Activa el contador de FPS por pantalla. Esquina superior derecha. **3.-CONTROLS:** Activa la ventana de controls. 
-
-**4.-DONE:** Cierra la ventana del menú pause. 
-
-**5.-EXIT:** Carga la escena de selección de dificultad. 
-
-5. Partida perdida 
-
-![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.012.jpeg)
 
 **1.-MENU:** Carga la escena del menú principal. 
 
