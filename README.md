@@ -130,6 +130,9 @@ Clase encargada de gestionar el aprendizaje de las redes neuronales. Para ello e
 - **Genepool:** Lista de mejores y peores agentes de los cuales a partir de ellos será creada la nueva población.** 
 - **Current Generation:** Variable de control que estipula el número de generación en la que nos encontramos.** 
 - **Current  genoma:**  Variable  de  control  que  estipula  el  número  de  genoma  que  nos encontramos en el momento actual.** 
+
+___
+
 ### 3. Control de la carrera 
 
 Como se trata de un conjunto de clases, donde algunas de ellas venían programadas en tutoriales de  Unity  y  no  hemos  aprovechado  todo  su  potencial  de  código,  vamos  a  comentar  las funcionalidades que hemos usado o que hemos modificado a nuestro favor, para hacer funcionar el juego de manera correcta. 
@@ -139,6 +142,8 @@ Lo primero que observamos al iniciar la carrera es una cuenta atrás, esto adem�
 Tras atravesar la línea de meta por primera vez se activa los contadores de tiempo, en este caso, solo es visible por pantalla el del jugador. Para poder completar la vuelta y que suba al marcador, el jugador debe atravesar los aros que se encontrará en el circuito. Si se mantiene dentro del circuito y manteniendo la trazada correcta, los atravesará siempre. Esto se implementó para evitar trampas, ya que se podía atravesar la línea de meta avanzando y retrocediendo sobre la misma línea y subían las vueltas al marcador y por tanto los tiempos de carrera eran imbatibles. 
 
 Por último, la funcionalidad más importante es la que detecta quién ha ganado la carrera. Si el agente termina antes las vueltas, se lanza la escena de derrota, por el contrario, si gana el jugador, se guardan los tiempos en el ranking y se carga la escena de victoria. 
+
+___
 
 ## 4. Diseño de los mapas ![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.016.png)
 
@@ -181,6 +186,8 @@ Countrytrack  Longtrack
 Loopingtrack  ![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.033.png)![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.034.png)![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.035.png) Mountaintrack 
 
 Ovaltrack 
+
+___
 
 ## 5. Bibliografía ![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.036.png)
 
