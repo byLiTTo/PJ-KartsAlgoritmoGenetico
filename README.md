@@ -23,6 +23,7 @@ A continuación, expondremos las diferentes escenas que forman el juego, explica
 ### Menú principal
 La primera ventana que nos encontramos al iniciar el juego es el común menú principal.
 
+![](Imagenes/MenuPrincipal.jpeg)     
 **1.-PLAY:** Carga la escena de selección de dificultad.     
 **2.-CONTROLS:** Activa la ventana que explica cómo son los controles del juego.     
 **3.-SETTINGS:** Activa la ventana de configuración con todos los ajustes del juego.     
@@ -30,6 +31,7 @@ La primera ventana que nos encontramos al iniciar el juego es el común menú pr
 
 #### Ventana CONTROLS
 
+![](Imagenes/VentanaControls.jpeg)     
 **1.-Controles del Kart:** Teclas asignadas al control del player, posee dos posibilidades.     
 **2.-Tecla de pause:** Tecla con la que se pausa el videojuego mientras se juega una carrera.     
 **3.-Close CONTROLS:** Cierra la ventana de controls y vuelve al menú principal.     
@@ -37,6 +39,7 @@ La primera ventana que nos encontramos al iniciar el juego es el común menú pr
 
 #### Ventana SETTINGS
 
+![](Imagenes/VentanaSettings.jpeg)     
 **1.-RESOLUTION:** Selector de la resolución del juego, obtiene los datos de la gráfica y los muestra.     
 **2.-FULLSCREEN:** Marcador que escoge entre el modo ventana y el modo pantalla completa.     
 **3.-GRAPHICS:** Selector de la calidad del juego, existen 4 configuraciones.     
@@ -46,6 +49,7 @@ La primera ventana que nos encontramos al iniciar el juego es el común menú pr
 
 ### Selección de dificultad 
 
+![](Imagenes/SeleccionDificultad.jpeg)     
 **1.-NAME:** Campo de texto donde se introduce el nombre que aparecerá en el ranking.     
 **2.-100CC:** Dificultad baja del juego. Carga la escena de selección de circuitos 100cc.     
 **3.-150CC:** Dificultad alta del juego. Carga la escena de selección de circuitos 150cc.     
@@ -53,6 +57,7 @@ La primera ventana que nos encontramos al iniciar el juego es el común menú pr
 
 ### Selección de circuito 
 
+![](Imagenes/SeleccionCircuito.jpeg)     
 **1.-COUNTRY:** Carga la escena del mapa llamado country.     
 **2.-OVAL:** Carga la escena del mapa llamado oval.     
 **3.-LOOPING:** Carga la escena del mapa llamado looping.     
@@ -62,6 +67,7 @@ La primera ventana que nos encontramos al iniciar el juego es el común menú pr
 
 ### Carrera 
 
+![](Imagenes/Carrera.jpeg)     
 **1.-TAB:** Tecla que activa la ventana de pause del circuito.     
 **2.-LAPS:** Indicador de las vueltas realizadas hasta el momento y las totales.     
 **3.-MENSAJES:** Rápidas indicaciones como que se comienza la última vuelta, etc.     
@@ -71,6 +77,7 @@ La primera ventana que nos encontramos al iniciar el juego es el común menú pr
 
 #### Ventana pause
 
+![](Imagenes/VentanaPause.jpeg)     
 **1.-SHADOWS:** Activa las nombras de los elementos del circuito.     
 **2.-FRAMERATE COUNTER:** Activa el contador de FPS por pantalla. Esquina superior derecha.     
 **3.-CONTROLS:** Activa la ventana de controls.     
@@ -79,24 +86,22 @@ La primera ventana que nos encontramos al iniciar el juego es el común menú pr
 
 ### Partida perdida
 
+![](Imagenes/PartidaPerdida.jpeg)     
+**1.-MENU:** Carga la escena del menú principal.     
+**2.-PLAY AGAIN:** Carga la escena del selector de dificultad.     
 
-**1.-MENU:** Carga la escena del menú principal. 
+### Partida ganada
 
-**2.-PLAY AGAIN:** Carga la escena del selector de dificultad. 
+![](Imagenes/PartidaGanada.jpeg)     
+**1.-RANKING:** Carga la escena del ranking del circuito donde se ha ganado.     
+**2.-MENU:** Carga la escena del menú principal.     
+**3.-PLAY AGAIN:** Carga la escena del selector de dificultad.     
 
-6. Partida ganada 
+### Ranking
 
-![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.013.jpeg)
-
-**1.-RANKING:** Carga la escena del ranking del circuito donde se ha ganado. **2.-MENU:** Carga la escena del menú principal. 
-
-**3.-PLAY AGAIN:** Carga la escena del selector de dificultad. 
-
-7. Ranking 
-
-![](Aspose.Words.4b7a7fe4-3c91-482d-bd93-57c1b3b9efac.014.jpeg)
-
-**1.-RANKING:** Top 10 de jugadores y sus tiempos realizados. Por defecto 0:00:00. **2.-BACK:** Carga la escena del menú principal. 
+![](Imagenes/Ranking.jpeg)     
+**1.-RANKING:** Top 10 de jugadores y sus tiempos realizados. Por defecto 0:00:00.     
+**2.-BACK:** Carga la escena del menú principal.
 
 ___
 
